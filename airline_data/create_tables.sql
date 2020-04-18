@@ -6,7 +6,7 @@ create database airlines;
 drop table if exists RawData_2010;
 
 create table RawData_2010 (
-Departures_scheduled numeric(25,10),
+Departures_scheduled decimal,
 Departures_performed decimal,
 Payload	decimal,
 Seats decimal,

@@ -40,3 +40,24 @@ truncate table All_AirlinesData;
 \copy RawData_MonthlyFlight_Summary from 'monthly_flight_data_summary_7_airlines.csv' delimiter ',' CSV header;
 
 \copy RawData_MonthlyFlight_StockFuel_Summary from 'monthly_flight_stock_fuel_summary_7_airlines.csv' delimiter ',' CSV header;
+
+insert into All_AirlinesData
+select * from rawdata_2010
+union all
+select * from rawdata_2011
+union all
+select * from rawdata_2012
+union all
+select * from rawdata_2013
+union all
+select * from rawdata_2014
+union all
+select * from rawdata_2015
+union all
+select * from rawdata_2016
+union all
+select * from rawdata_2017
+union all
+select * from rawdata_2018
+union all
+select * from rawdata_2019

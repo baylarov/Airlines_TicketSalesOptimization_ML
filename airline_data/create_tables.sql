@@ -334,7 +334,5 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10),
-PartitionedDate date
-) partition by range (PartitionedDate);
-
+YearMonth char(10)
+);

@@ -1,3 +1,5 @@
+\c airlines;
+
 -- filtre eklenerek yeni tablo oluşturuldu
 drop table if exists final_airlines_data;
 

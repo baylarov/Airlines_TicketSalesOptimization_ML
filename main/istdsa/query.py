@@ -13,7 +13,7 @@ import base64
 #     host_enc=p.readline()
 
 # host=base64.b64decode(host_enc).decode("utf-8")
-host='18.191.177.64'
+host='18.191.190.62'
 connection_args = {
     'host': host,
     'dbname': 'airlines',

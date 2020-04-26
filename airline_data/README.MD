@@ -20,5 +20,3 @@ Açıklama:
 4.Jupyterden sorgu çekilecek olan tablo oluşturularak yeni alanlar eklendi, içeriği PGde çalıştırmak için:
 
 	psql -f yeni_tablo.sql
-
-5.2016 ve 2018 yılları aralığındaki verisetlerinin biyutu 50 mbdan büyük olduğu için GitHub repoya ekleyemedim, alternatif olarak zip dosyada yüklendi.Unzip ederek bu verisetlerine ulaşmak mümkün.

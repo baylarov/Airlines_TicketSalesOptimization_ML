@@ -9,11 +9,11 @@ import base64
 '''
 # print(base64.b64encode("deneme".encode("utf-8")))
 
-# with open('host.txt','r') as p:
-#     host_enc=p.readline()
+with open('host.txt','r') as p:
+    host_enc=p.readline()
 
-# host=base64.b64decode(host_enc).decode("utf-8")
-host='18.191.190.62'
+host=base64.b64decode(host_enc).decode("utf-8")
+
 connection_args = {
     'host': host,
     'dbname': 'airlines',
@@ -29,12 +29,4 @@ conn=cp.DbConnection.init(**connection_args)
 #         print(cursor.fetchall())
 # except(Exception, DatabaseError) as hata:
 #     print('Veritabanı bağlantı hatası:\n ERROR: {}'.format(hata))
-class Query:
-    query=None
-    def ConnCursor(self):
-        try:
-            with cp.ConnectionCursor() as cursor:
-                cursor.execute(query)
-                print(cursor.fetchall())
-        except(Exception, DatabaseError) as hata:
-            print('Veritabanı bağlantı hatası:\n ERROR: {}'.format(hata))
+

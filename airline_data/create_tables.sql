@@ -26,7 +26,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2011;
@@ -52,7 +53,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2012;
@@ -78,7 +80,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2013;
@@ -104,7 +107,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2014;
@@ -130,7 +134,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2015;
@@ -156,7 +161,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2016;
@@ -182,7 +188,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2017;
@@ -208,7 +215,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2018;
@@ -234,7 +242,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists RawData_2019;
@@ -260,7 +269,8 @@ Aircraft_type integer,
 Year integer,
 Quarter integer,
 Month integer,
-YearMonth char(10)
+YearMonth char(10),
+is_overbooked integer
 );
 
 drop table if exists AircraftType;
